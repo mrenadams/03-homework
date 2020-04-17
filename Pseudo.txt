@@ -1,0 +1,26 @@
+Prompt user for pw length - save answer in var confirmLength
+Confirm user for special characters - save answer in var confirmSpecial
+Confirm user for upper case - save answer in var confirmUpper
+Confirm user for lower case - save answer in var confirmLower
+
+Create var string of special char to pull from: var chars = "!@#$%^&*()-+<>";
+Create var string of lower case to pull from: var lowerCase = “abcdefghijklmnopqrstuvwxyz”;
+Create string of upper case to pull from: var upperCase = “ABCDEFGHIJKLMNOPQRSTUVWXYZ”;
+
+If user confirms YES to char + upper + lower , then the passwordText is Math.random loop of char + upper  + lower  * length 
+
+Else if user confirms YES to only upper + lower  , then the passwordText is Math.random loop of upper  + lower  * length 
+
+Else if user confirms YES to only char + lower  , then the passwordText is Math.random loop of char  + lower  * length 
+
+Else if user confirms YES to only char + upper , then the passwordText is Math.random loop of char + upper  * length 
+
+Else if user confirms YES to only char + upper , then the passwordText is Math.random loop of char + upper  * length 
+
+Else if user confirms YES to only char , then the passwordText is Math.random loop of char  * length 
+
+Else if user confirms YES to only upper , then the passwordText is Math.random loop of upper  * length 
+
+Else if user confirms YES to only lower , then the passwordText is Math.random loop of lower  * length 
+
+Loop will return passwordText
